@@ -1,0 +1,2285 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc8140c -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Configurations -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Service -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Matrix\\\\MatricLib -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o MatricLib/CMatrix.src cc8140a.ic"
+	.compiler_name		"ctc"
+	;source	'../MatricLib/CMatrix.cpp'
+
+	
+$TC162
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC1Ev',code,cluster('_ZN7CMatrixC1Ev')
+	.sect	'.text.CMatrix._ZN7CMatrixC1Ev'
+	.align	2
+	
+	.global	_ZN7CMatrixC1Ev
+; Function _ZN7CMatrixC1Ev
+.L28:
+_ZN7CMatrixC1Ev:	.type	func
+	mov	d0,#1
+.L247:
+	j	.L2
+.L3:
+	mul	d15,d0,#4
+	addsc.a	a15,a4,d15,#0
+.L283:
+	mov	d15,#0
+.L284:
+	st.w	[a15],d15
+.L285:
+	add	d0,#1
+.L2:
+	mov	d15,#9
+.L286:
+	jlt	d0,d15,.L3
+.L146:
+	ret
+.L143:
+	
+___ZN7CMatrixC1Ev_function_end:
+	.size	_ZN7CMatrixC1Ev,___ZN7CMatrixC1Ev_function_end-_ZN7CMatrixC1Ev
+.L67:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC2Ev',code,cluster('_ZN7CMatrixC2Ev')
+	.sect	'.text.CMatrix._ZN7CMatrixC2Ev'
+	.align	2
+	
+	.global	_ZN7CMatrixC2Ev
+; Function _ZN7CMatrixC2Ev
+.L30:
+_ZN7CMatrixC2Ev:	.type	func
+	call	_ZN7CMatrixC1Ev
+.L248:
+	ret
+.L149:
+	
+___ZN7CMatrixC2Ev_function_end:
+	.size	_ZN7CMatrixC2Ev,___ZN7CMatrixC2Ev_function_end-_ZN7CMatrixC2Ev
+.L72:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC1Ed',code,cluster('_ZN7CMatrixC1Ed')
+	.sect	'.text.CMatrix._ZN7CMatrixC1Ed'
+	.align	2
+	
+	.global	_ZN7CMatrixC1Ed
+; Function _ZN7CMatrixC1Ed
+.L32:
+_ZN7CMatrixC1Ed:	.type	func
+	mov	d0,#0
+.L249:
+	j	.L4
+.L5:
+	mul	d15,d0,#4
+	addsc.a	a15,a4,d15,#0
+.L295:
+	st.w	[a15],d4
+.L296:
+	add	d0,#1
+.L4:
+	mov	d15,#9
+.L297:
+	jlt	d0,d15,.L5
+.L157:
+	ret
+.L152:
+	
+___ZN7CMatrixC1Ed_function_end:
+	.size	_ZN7CMatrixC1Ed,___ZN7CMatrixC1Ed_function_end-_ZN7CMatrixC1Ed
+.L77:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC2Ed',code,cluster('_ZN7CMatrixC2Ed')
+	.sect	'.text.CMatrix._ZN7CMatrixC2Ed'
+	.align	2
+	
+	.global	_ZN7CMatrixC2Ed
+; Function _ZN7CMatrixC2Ed
+.L34:
+_ZN7CMatrixC2Ed:	.type	func
+	call	_ZN7CMatrixC1Ed
+.L250:
+	ret
+.L159:
+	
+___ZN7CMatrixC2Ed_function_end:
+	.size	_ZN7CMatrixC2Ed,___ZN7CMatrixC2Ed_function_end-_ZN7CMatrixC2Ed
+.L82:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC1EPKd',code,cluster('_ZN7CMatrixC1EPKd')
+	.sect	'.text.CMatrix._ZN7CMatrixC1EPKd'
+	.align	2
+	
+	.global	_ZN7CMatrixC1EPKd
+; Function _ZN7CMatrixC1EPKd
+.L36:
+_ZN7CMatrixC1EPKd:	.type	func
+	mov	d4,#36
+	call	memcpy
+.L251:
+	ret
+.L163:
+	
+___ZN7CMatrixC1EPKd_function_end:
+	.size	_ZN7CMatrixC1EPKd,___ZN7CMatrixC1EPKd_function_end-_ZN7CMatrixC1EPKd
+.L87:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC2EPKd',code,cluster('_ZN7CMatrixC2EPKd')
+	.sect	'.text.CMatrix._ZN7CMatrixC2EPKd'
+	.align	2
+	
+	.global	_ZN7CMatrixC2EPKd
+; Function _ZN7CMatrixC2EPKd
+.L38:
+_ZN7CMatrixC2EPKd:	.type	func
+	call	_ZN7CMatrixC1EPKd
+.L252:
+	ret
+.L168:
+	
+___ZN7CMatrixC2EPKd_function_end:
+	.size	_ZN7CMatrixC2EPKd,___ZN7CMatrixC2EPKd_function_end-_ZN7CMatrixC2EPKd
+.L92:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC1ERKS_',code,cluster('_ZN7CMatrixC1ERKS_')
+	.sect	'.text.CMatrix._ZN7CMatrixC1ERKS_'
+	.align	2
+	
+	.global	_ZN7CMatrixC1ERKS_
+; Function _ZN7CMatrixC1ERKS_
+.L40:
+_ZN7CMatrixC1ERKS_:	.type	func
+	mov	d4,#36
+	call	memcpy
+.L253:
+	ret
+.L172:
+	
+___ZN7CMatrixC1ERKS__function_end:
+	.size	_ZN7CMatrixC1ERKS_,___ZN7CMatrixC1ERKS__function_end-_ZN7CMatrixC1ERKS_
+.L97:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrixC2ERKS_',code,cluster('_ZN7CMatrixC2ERKS_')
+	.sect	'.text.CMatrix._ZN7CMatrixC2ERKS_'
+	.align	2
+	
+	.global	_ZN7CMatrixC2ERKS_
+; Function _ZN7CMatrixC2ERKS_
+.L42:
+_ZN7CMatrixC2ERKS_:	.type	func
+	call	_ZN7CMatrixC1ERKS_
+.L254:
+	ret
+.L177:
+	
+___ZN7CMatrixC2ERKS__function_end:
+	.size	_ZN7CMatrixC2ERKS_,___ZN7CMatrixC2ERKS__function_end-_ZN7CMatrixC2ERKS_
+.L102:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZNK7CMatrix10GetElementEii',code,cluster('_ZNK7CMatrix10GetElementEii')
+	.sect	'.text.CMatrix._ZNK7CMatrix10GetElementEii'
+	.align	2
+	
+	.global	_ZNK7CMatrix10GetElementEii
+; Function _ZNK7CMatrix10GetElementEii
+.L44:
+_ZNK7CMatrix10GetElementEii:	.type	func
+	mov	d15,#3
+.L322:
+	madd	d15,d5,d4,d15
+.L323:
+	mul	d15,d15,#4
+	addsc.a	a15,a4,d15,#0
+	ld.w	d2,[a15]
+.L324:
+	j	.L6
+.L6:
+	ret
+.L181:
+	
+___ZNK7CMatrix10GetElementEii_function_end:
+	.size	_ZNK7CMatrix10GetElementEii,___ZNK7CMatrix10GetElementEii_function_end-_ZNK7CMatrix10GetElementEii
+.L107:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrix10SetElementEiid',code,cluster('_ZN7CMatrix10SetElementEiid')
+	.sect	'.text.CMatrix._ZN7CMatrix10SetElementEiid'
+	.align	2
+	
+	.global	_ZN7CMatrix10SetElementEiid
+; Function _ZN7CMatrix10SetElementEiid
+.L46:
+_ZN7CMatrix10SetElementEiid:	.type	func
+	mov	d15,#3
+.L329:
+	madd	d15,d5,d4,d15
+.L330:
+	mul	d15,d15,#4
+	addsc.a	a15,a4,d15,#0
+.L331:
+	st.w	[a15],d6
+.L332:
+	ret
+.L186:
+	
+___ZN7CMatrix10SetElementEiid_function_end:
+	.size	_ZN7CMatrix10SetElementEiid,___ZN7CMatrix10SetElementEiid_function_end-_ZN7CMatrix10SetElementEiid
+.L112:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrix9AddScalarEd',code,cluster('_ZN7CMatrix9AddScalarEd')
+	.sect	'.text.CMatrix._ZN7CMatrix9AddScalarEd'
+	.align	2
+	
+	.global	_ZN7CMatrix9AddScalarEd
+; Function _ZN7CMatrix9AddScalarEd
+.L48:
+_ZN7CMatrix9AddScalarEd:	.type	func
+	mov	d0,#0
+.L255:
+	j	.L7
+.L8:
+	mul	d15,d0,#4
+	addsc.a	a15,a4,d15,#0
+	mul	d15,d0,#4
+	addsc.a	a2,a4,d15,#0
+	ld.w	d15,[a2]
+.L337:
+	add.f	d15,d15,d4
+	st.w	[a15],d15
+.L338:
+	add	d0,#1
+.L7:
+	mov	d15,#9
+.L339:
+	jlt	d0,d15,.L8
+.L196:
+	ret
+.L192:
+	
+___ZN7CMatrix9AddScalarEd_function_end:
+	.size	_ZN7CMatrix9AddScalarEd,___ZN7CMatrix9AddScalarEd_function_end-_ZN7CMatrix9AddScalarEd
+.L117:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrix9MulScalarEd',code,cluster('_ZN7CMatrix9MulScalarEd')
+	.sect	'.text.CMatrix._ZN7CMatrix9MulScalarEd'
+	.align	2
+	
+	.global	_ZN7CMatrix9MulScalarEd
+; Function _ZN7CMatrix9MulScalarEd
+.L50:
+_ZN7CMatrix9MulScalarEd:	.type	func
+	mov	d0,#0
+.L256:
+	j	.L9
+.L10:
+	mul	d15,d0,#4
+	addsc.a	a15,a4,d15,#0
+	mul	d15,d0,#4
+	addsc.a	a2,a4,d15,#0
+	ld.w	d15,[a2]
+.L344:
+	mul.f	d15,d15,d4
+	st.w	[a15],d15
+.L345:
+	add	d0,#1
+.L9:
+	mov	d15,#9
+.L346:
+	jlt	d0,d15,.L10
+.L202:
+	ret
+.L198:
+	
+___ZN7CMatrix9MulScalarEd_function_end:
+	.size	_ZN7CMatrix9MulScalarEd,___ZN7CMatrix9MulScalarEd_function_end-_ZN7CMatrix9MulScalarEd
+.L122:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrix4PlusERS_',code,cluster('_ZN7CMatrix4PlusERS_')
+	.sect	'.text.CMatrix._ZN7CMatrix4PlusERS_'
+	.align	2
+	
+	.global	_ZN7CMatrix4PlusERS_
+; Function _ZN7CMatrix4PlusERS_
+.L52:
+_ZN7CMatrix4PlusERS_:	.type	func
+	mov	d0,#0
+.L257:
+	j	.L11
+.L12:
+	mul	d15,d0,#4
+	addsc.a	a15,a4,d15,#0
+	mul	d15,d0,#4
+	addsc.a	a2,a4,d15,#0
+	ld.w	d1,[a2]
+.L351:
+	mul	d15,d0,#4
+	addsc.a	a2,a5,d15,#0
+	ld.w	d15,[a2]
+.L352:
+	add.f	d15,d1,d15
+	st.w	[a15],d15
+.L353:
+	add	d0,#1
+.L11:
+	mov	d15,#9
+.L354:
+	jlt	d0,d15,.L12
+.L209:
+	ret
+.L204:
+	
+___ZN7CMatrix4PlusERS__function_end:
+	.size	_ZN7CMatrix4PlusERS_,___ZN7CMatrix4PlusERS__function_end-_ZN7CMatrix4PlusERS_
+.L127:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZNK7CMatrix3AddERS_',code,cluster('_ZNK7CMatrix3AddERS_')
+	.sect	'.text.CMatrix._ZNK7CMatrix3AddERS_'
+	.align	2
+	
+	.global	_ZNK7CMatrix3AddERS_
+; Function _ZNK7CMatrix3AddERS_
+.L54:
+_ZNK7CMatrix3AddERS_:	.type	func
+	mov.aa	a12,a4
+.L258:
+	mov.aa	a13,a6
+.L259:
+	mov.aa	a4,a12
+	call	_ZN7CMatrixC1ERKS_
+.L216:
+	mov	d0,#0
+.L260:
+	j	.L13
+.L14:
+	mul	d15,d0,#4
+	addsc.a	a15,a12,d15,#0
+	mul	d15,d0,#4
+	addsc.a	a2,a12,d15,#0
+	ld.w	d1,[a2]
+.L359:
+	mul	d15,d0,#4
+	addsc.a	a2,a13,d15,#0
+	ld.w	d15,[a2]
+.L360:
+	add.f	d15,d1,d15
+	st.w	[a15],d15
+.L361:
+	add	d0,#1
+.L13:
+	mov	d15,#9
+.L362:
+	jlt	d0,d15,.L14
+.L217:
+	j	.L15
+.L15:
+	ret
+.L211:
+	
+___ZNK7CMatrix3AddERS__function_end:
+	.size	_ZNK7CMatrix3AddERS_,___ZNK7CMatrix3AddERS__function_end-_ZNK7CMatrix3AddERS_
+.L132:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZNK7CMatrix3MulERKS_',code,cluster('_ZNK7CMatrix3MulERKS_')
+	.sect	'.text.CMatrix._ZNK7CMatrix3MulERKS_'
+	.align	2
+	
+	.global	_ZNK7CMatrix3MulERKS_
+; Function _ZNK7CMatrix3MulERKS_
+.L56:
+_ZNK7CMatrix3MulERKS_:	.type	func
+	mov.aa	a12,a4
+.L261:
+	mov.aa	a13,a5
+.L262:
+	mov.aa	a14,a6
+.L263:
+	mov.aa	a4,a12
+	mov.aa	a5,a13
+	call	_ZN7CMatrixC1ERKS_
+.L224:
+	mov	d0,#0
+.L264:
+	j	.L16
+.L17:
+	mul	d15,d0,#3
+.L367:
+	mul	d15,d15,#4
+	addsc.a	a15,a13,d15,#0
+.L229:
+	mov	d1,#0
+.L265:
+	j	.L18
+.L19:
+	mov	d2,#0
+.L266:
+	mul	d15,d1,#4
+	addsc.a	a2,a14,d15,#0
+.L234:
+	mov	d3,#0
+.L268:
+	j	.L20
+.L21:
+	mul	d15,d3,#4
+	addsc.a	a4,a15,d15,#0
+	ld.w	d4,[a4]
+.L368:
+	mul	d15,d3,#3
+.L369:
+	mul	d15,d15,#4
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]
+.L370:
+	madd.f	d2,d2,d4,d15
+.L371:
+	add	d3,#1
+.L20:
+	jlt	d3,#3,.L21
+.L235:
+	mov	d15,#3
+.L372:
+	madd	d15,d1,d0,d15
+.L373:
+	mul	d15,d15,#4
+	addsc.a	a2,a12,d15,#0
+.L267:
+	st.w	[a2],d2
+.L231:
+	add	d1,#1
+.L18:
+	jlt	d1,#3,.L19
+.L227:
+	add	d0,#1
+.L16:
+	jlt	d0,#3,.L17
+.L225:
+	j	.L22
+.L22:
+	ret
+.L219:
+	
+___ZNK7CMatrix3MulERKS__function_end:
+	.size	_ZNK7CMatrix3MulERKS_,___ZNK7CMatrix3MulERKS__function_end-_ZNK7CMatrix3MulERKS_
+.L137:
+	; End of function
+	
+	.sdecl	'.text.CMatrix._ZN7CMatrix9TransposeEv',code,cluster('_ZN7CMatrix9TransposeEv')
+	.sect	'.text.CMatrix._ZN7CMatrix9TransposeEv'
+	.align	2
+	
+	.global	_ZN7CMatrix9TransposeEv
+; Function _ZN7CMatrix9TransposeEv
+.L58:
+_ZN7CMatrix9TransposeEv:	.type	func
+	sub.a	a10,#40
+.L269:
+	mov.aa	a15,a4
+.L271:
+	lea	a4,[a10]0
+.L270:
+	mov.aa	a5,a15
+.L272:
+	call	_ZN7CMatrixC1ERKS_
+.L242:
+	mov	d0,#0
+.L273:
+	j	.L23
+.L24:
+	mov	d1,#0
+.L274:
+	j	.L25
+.L26:
+	mov	d15,#3
+.L378:
+	madd	d15,d1,d0,d15
+.L379:
+	mul	d15,d15,#4
+	addsc.a	a2,a15,d15,#0
+.L380:
+	mov	d15,#3
+.L381:
+	madd	d15,d0,d1,d15
+.L382:
+	mul	d15,d15,#4
+	addsc.a	a4,a10,d15,#0
+	ld.w	d15,[a4]
+.L383:
+	st.w	[a2],d15
+.L384:
+	add	d1,#1
+.L25:
+	jlt	d1,#3,.L26
+.L245:
+	add	d0,#1
+.L23:
+	jlt	d0,#3,.L24
+.L243:
+	ret
+.L237:
+	
+___ZN7CMatrix9TransposeEv_function_end:
+	.size	_ZN7CMatrix9TransposeEv,___ZN7CMatrix9TransposeEv_function_end-_ZN7CMatrix9TransposeEv
+.L142:
+	; End of function
+	
+	.calls	'_ZN7CMatrixC2Ev','_ZN7CMatrixC1Ev'
+	.calls	'_ZN7CMatrixC2Ed','_ZN7CMatrixC1Ed'
+	.calls	'_ZN7CMatrixC1EPKd','memcpy'
+	.calls	'_ZN7CMatrixC2EPKd','_ZN7CMatrixC1EPKd'
+	.calls	'_ZN7CMatrixC1ERKS_','memcpy'
+	.calls	'_ZN7CMatrixC2ERKS_','_ZN7CMatrixC1ERKS_'
+	.calls	'_ZNK7CMatrix3AddERS_','_ZN7CMatrixC1ERKS_'
+	.calls	'_ZNK7CMatrix3MulERKS_','_ZN7CMatrixC1ERKS_'
+	.calls	'_ZN7CMatrix9TransposeEv','_ZN7CMatrixC1ERKS_'
+	.calls	'_ZN7CMatrixC1Ev','',0
+	.calls	'_ZN7CMatrixC2Ev','',0
+	.calls	'_ZN7CMatrixC1Ed','',0
+	.calls	'_ZN7CMatrixC2Ed','',0
+	.calls	'_ZN7CMatrixC1EPKd','',0
+	.calls	'_ZN7CMatrixC2EPKd','',0
+	.calls	'_ZN7CMatrixC1ERKS_','',0
+	.calls	'_ZN7CMatrixC2ERKS_','',0
+	.calls	'_ZNK7CMatrix10GetElementEii','',0
+	.calls	'_ZN7CMatrix10SetElementEiid','',0
+	.calls	'_ZN7CMatrix9AddScalarEd','',0
+	.calls	'_ZN7CMatrix9MulScalarEd','',0
+	.calls	'_ZN7CMatrix4PlusERS_','',0
+	.calls	'_ZNK7CMatrix3AddERS_','',0
+	.calls	'_ZNK7CMatrix3MulERKS_','',0
+	.extern	memcpy
+	.calls	'_ZN7CMatrix9TransposeEv','',40
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L60:
+	.word	496
+	.half	3
+	.word	.L61
+	.byte	4
+.L59:
+	.byte	1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L62
+	.byte	2
+	.byte	'void',0,3
+	.word	205
+	.byte	4
+	.word	211
+	.byte	5
+	.word	205
+	.byte	3
+	.word	221
+	.byte	4
+	.word	226
+	.byte	6
+	.byte	'unsigned int',0,4,7,7
+	.byte	'memcpy',0,1,53,14
+	.word	211
+	.byte	1,1,1,1,8,1,53,26
+	.word	216
+	.byte	8,1,53,48
+	.word	231
+	.byte	8,1,53,59
+	.word	236
+	.byte	0
+.L155:
+	.byte	6
+	.byte	'float',0,4,4,9,36
+	.word	296
+	.byte	10,8,0
+.L240:
+	.byte	11
+	.byte	'CMatrix',0,2,27,24,36,12
+	.byte	'm_f64Data',0
+	.word	305
+	.byte	36,2,35,0,0
+.L207:
+	.byte	3
+	.word	314
+.L144:
+	.byte	5
+	.word	347
+.L147:
+	.byte	6
+	.byte	'int',0,4,5
+.L150:
+	.byte	5
+	.word	347
+.L153:
+	.byte	5
+	.word	347
+.L160:
+	.byte	5
+	.word	347
+.L164:
+	.byte	5
+	.word	347
+	.byte	5
+	.word	296
+.L166:
+	.byte	3
+	.word	384
+.L169:
+	.byte	5
+	.word	347
+.L173:
+	.byte	5
+	.word	347
+	.byte	5
+	.word	314
+.L175:
+	.byte	3
+	.word	404
+.L178:
+	.byte	5
+	.word	347
+.L182:
+	.byte	5
+	.word	409
+.L187:
+	.byte	5
+	.word	347
+.L193:
+	.byte	5
+	.word	347
+.L199:
+	.byte	5
+	.word	347
+.L205:
+	.byte	5
+	.word	347
+.L213:
+	.byte	5
+	.word	409
+.L221:
+	.byte	5
+	.word	409
+.L238:
+	.byte	5
+	.word	347
+	.byte	13,1,3
+	.word	459
+	.byte	14
+	.byte	'__codeptr',0,3,1,1
+	.word	461
+	.byte	14
+	.byte	'size_t',0,1,29,18
+	.word	236
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,59,0,3,8,0,0,3,15,0,73,19,0,0,4,55,0,73,19,0,0,5,38,0
+	.byte	73,19,0,0,6,36,0,3,8,11,15,62,15,0,0,7,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,8
+	.byte	5,0,58,15,59,15,57,15,73,19,0,0,9,1,1,11,15,73,19,0,0,10,33,0,47,15,0,0,11,19,1,3,8,58,15,59,15,57,15
+	.byte	11,15,0,0,12,13,0,3,8,73,19,11,15,56,9,0,0,13,21,0,54,15,0,0,14,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L62:
+	.word	.L276-.L275
+.L275:
+	.half	3
+	.word	.L278-.L277
+.L277:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'../MatricLib/CMatrix.h',0,0,0,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L278:
+.L276:
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC1Ev')
+	.sect	'.debug_info'
+.L63:
+	.word	308
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L66,.L65
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC1Ev',0,1,20,6,1,1,1
+	.word	.L28,.L143,.L27
+	.byte	4
+	.byte	'this',0,1,20,45
+	.word	.L144,.L145
+	.byte	5
+	.word	.L28,.L143
+	.byte	5
+	.word	.L28,.L146
+	.byte	6
+	.byte	'__2818_14_i',0,1,21,10
+	.word	.L147,.L148
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC1Ev')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC1Ev')
+	.sect	'.debug_line'
+.L65:
+	.word	.L280-.L279
+.L279:
+	.half	3
+	.word	.L282-.L281
+.L281:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L282:
+	.byte	5,35,7,0,5,2
+	.word	.L28
+	.byte	3,20,1,5,64,9
+	.half	.L247-.L28
+	.byte	1,5,21,9
+	.half	.L3-.L247
+	.byte	3,1,1,5,39,9
+	.half	.L283-.L3
+	.byte	1,5,36,9
+	.half	.L284-.L283
+	.byte	1,5,77,9
+	.half	.L285-.L284
+	.byte	3,127,1,5,62,9
+	.half	.L2-.L285
+	.byte	1,5,64,9
+	.half	.L286-.L2
+	.byte	1,5,1,7,9
+	.half	.L146-.L286
+	.byte	3,3,1,7,9
+	.half	.L67-.L146
+	.byte	0,1,1
+.L280:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC1Ev')
+	.sect	'.debug_ranges'
+.L66:
+	.word	-1,.L28,0,.L67-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC2Ev')
+	.sect	'.debug_info'
+.L68:
+	.word	273
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L71,.L70
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC2Ev',0,1,24,8,1,1,1
+	.word	.L30,.L149,.L29
+	.byte	4
+	.byte	'this',0,1,24,47
+	.word	.L150,.L151
+	.byte	5
+	.word	.L30,.L149
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC2Ev')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC2Ev')
+	.sect	'.debug_line'
+.L70:
+	.word	.L288-.L287
+.L287:
+	.half	3
+	.word	.L290-.L289
+.L289:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L290:
+	.byte	5,72,7,0,5,2
+	.word	.L30
+	.byte	3,23,1,5,80,9
+	.half	.L248-.L30
+	.byte	1,7,9
+	.half	.L72-.L248
+	.byte	0,1,1
+.L288:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC2Ev')
+	.sect	'.debug_ranges'
+.L71:
+	.word	-1,.L30,0,.L72-.L30,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC1Ed')
+	.sect	'.debug_info'
+.L73:
+	.word	332
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L76,.L75
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC1Ed',0,1,27,6,1,1,1
+	.word	.L32,.L152,.L31
+	.byte	4
+	.byte	'this',0,1,27,45
+	.word	.L153,.L154
+	.byte	4
+	.byte	'__2824_25_s',0,1,27,59
+	.word	.L155,.L156
+	.byte	5
+	.word	.L32,.L152
+	.byte	5
+	.word	.L32,.L157
+	.byte	6
+	.byte	'__2825_14_i',0,1,28,10
+	.word	.L147,.L158
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC1Ed')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC1Ed')
+	.sect	'.debug_line'
+.L75:
+	.word	.L292-.L291
+.L291:
+	.half	3
+	.word	.L294-.L293
+.L293:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L294:
+	.byte	5,35,7,0,5,2
+	.word	.L32
+	.byte	3,27,1,5,64,9
+	.half	.L249-.L32
+	.byte	1,5,21,9
+	.half	.L5-.L249
+	.byte	3,1,1,5,36,9
+	.half	.L295-.L5
+	.byte	1,5,77,9
+	.half	.L296-.L295
+	.byte	3,127,1,5,62,9
+	.half	.L4-.L296
+	.byte	1,5,64,9
+	.half	.L297-.L4
+	.byte	1,5,1,7,9
+	.half	.L157-.L297
+	.byte	3,3,1,7,9
+	.half	.L77-.L157
+	.byte	0,1,1
+.L292:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC1Ed')
+	.sect	'.debug_ranges'
+.L76:
+	.word	-1,.L32,0,.L77-.L32,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC2Ed')
+	.sect	'.debug_info'
+.L78:
+	.word	290
+	.half	3
+	.word	.L79
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L81,.L80
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC2Ed',0,1,31,8,1,1,1
+	.word	.L34,.L159,.L33
+	.byte	4
+	.byte	'this',0,1,31,47
+	.word	.L160,.L161
+	.byte	4
+	.byte	'__T1',0,1,31,61
+	.word	.L155,.L162
+	.byte	5
+	.word	.L34,.L159
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC2Ed')
+	.sect	'.debug_abbrev'
+.L79:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC2Ed')
+	.sect	'.debug_line'
+.L80:
+	.word	.L299-.L298
+.L298:
+	.half	3
+	.word	.L301-.L300
+.L300:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L301:
+	.byte	5,92,7,0,5,2
+	.word	.L34
+	.byte	3,30,1,5,100,9
+	.half	.L250-.L34
+	.byte	1,7,9
+	.half	.L82-.L250
+	.byte	0,1,1
+.L299:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC2Ed')
+	.sect	'.debug_ranges'
+.L81:
+	.word	-1,.L34,0,.L82-.L34,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC1EPKd')
+	.sect	'.debug_info'
+.L83:
+	.word	299
+	.half	3
+	.word	.L84
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L86,.L85
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC1EPKd',0,1,34,6,1,1,1
+	.word	.L36,.L163,.L35
+	.byte	4
+	.byte	'this',0,1,34,47
+	.word	.L164,.L165
+	.byte	4
+	.byte	'__2831_32_a',0,1,34,68
+	.word	.L166,.L167
+	.byte	5
+	.word	.L36,.L163
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC1EPKd')
+	.sect	'.debug_abbrev'
+.L84:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC1EPKd')
+	.sect	'.debug_line'
+.L85:
+	.word	.L303-.L302
+.L302:
+	.half	3
+	.word	.L305-.L304
+.L304:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L305:
+	.byte	5,68,7,0,5,2
+	.word	.L36
+	.byte	3,34,1,5,1,9
+	.half	.L251-.L36
+	.byte	3,1,1,7,9
+	.half	.L87-.L251
+	.byte	0,1,1
+.L303:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC1EPKd')
+	.sect	'.debug_ranges'
+.L86:
+	.word	-1,.L36,0,.L87-.L36,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC2EPKd')
+	.sect	'.debug_info'
+.L88:
+	.word	292
+	.half	3
+	.word	.L89
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L91,.L90
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC2EPKd',0,1,36,8,1,1,1
+	.word	.L38,.L168,.L37
+	.byte	4
+	.byte	'this',0,1,36,49
+	.word	.L169,.L170
+	.byte	4
+	.byte	'__T2',0,1,36,70
+	.word	.L166,.L171
+	.byte	5
+	.word	.L38,.L168
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC2EPKd')
+	.sect	'.debug_abbrev'
+.L89:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC2EPKd')
+	.sect	'.debug_line'
+.L90:
+	.word	.L307-.L306
+.L306:
+	.half	3
+	.word	.L309-.L308
+.L308:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L309:
+	.byte	5,103,7,0,5,2
+	.word	.L38
+	.byte	3,35,1,5,111,9
+	.half	.L252-.L38
+	.byte	1,7,9
+	.half	.L92-.L252
+	.byte	0,1,1
+.L307:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC2EPKd')
+	.sect	'.debug_ranges'
+.L91:
+	.word	-1,.L38,0,.L92-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC1ERKS_')
+	.sect	'.debug_info'
+.L93:
+	.word	300
+	.half	3
+	.word	.L94
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L96,.L95
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC1ERKS_',0,1,39,6,1,1,1
+	.word	.L40,.L172,.L39
+	.byte	4
+	.byte	'this',0,1,39,48
+	.word	.L173,.L174
+	.byte	4
+	.byte	'__2836_33_m',0,1,39,77
+	.word	.L175,.L176
+	.byte	5
+	.word	.L40,.L172
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC1ERKS_')
+	.sect	'.debug_abbrev'
+.L94:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC1ERKS_')
+	.sect	'.debug_line'
+.L95:
+	.word	.L311-.L310
+.L310:
+	.half	3
+	.word	.L313-.L312
+.L312:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L313:
+	.byte	5,83,7,0,5,2
+	.word	.L40
+	.byte	3,39,1,5,1,9
+	.half	.L253-.L40
+	.byte	3,1,1,7,9
+	.half	.L97-.L253
+	.byte	0,1,1
+.L311:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC1ERKS_')
+	.sect	'.debug_ranges'
+.L96:
+	.word	-1,.L40,0,.L97-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrixC2ERKS_')
+	.sect	'.debug_info'
+.L98:
+	.word	293
+	.half	3
+	.word	.L99
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L101,.L100
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrixC2ERKS_',0,1,41,8,1,1,1
+	.word	.L42,.L177,.L41
+	.byte	4
+	.byte	'this',0,1,41,50
+	.word	.L178,.L179
+	.byte	4
+	.byte	'__T3',0,1,41,79
+	.word	.L175,.L180
+	.byte	5
+	.word	.L42,.L177
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrixC2ERKS_')
+	.sect	'.debug_abbrev'
+.L99:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrixC2ERKS_')
+	.sect	'.debug_line'
+.L100:
+	.word	.L315-.L314
+.L314:
+	.half	3
+	.word	.L317-.L316
+.L316:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L317:
+	.byte	5,113,7,0,5,2
+	.word	.L42
+	.byte	3,40,1,5,121,9
+	.half	.L254-.L42
+	.byte	1,7,9
+	.half	.L102-.L254
+	.byte	0,1,1
+.L315:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrixC2ERKS_')
+	.sect	'.debug_ranges'
+.L101:
+	.word	-1,.L42,0,.L102-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZNK7CMatrix10GetElementEii')
+	.sect	'.debug_info'
+.L103:
+	.word	337
+	.half	3
+	.word	.L104
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L106,.L105
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZNK7CMatrix10GetElementEii',0,1,48,8
+	.word	.L155
+	.byte	1,1,1
+	.word	.L44,.L181,.L43
+	.byte	4
+	.byte	'this',0,1,48,65
+	.word	.L182,.L183
+	.byte	4
+	.byte	'__2845_32_r',0,1,48,76
+	.word	.L147,.L184
+	.byte	4
+	.byte	'__2845_39_c',0,1,48,94
+	.word	.L147,.L185
+	.byte	5
+	.word	.L44,.L181
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZNK7CMatrix10GetElementEii')
+	.sect	'.debug_abbrev'
+.L104:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZNK7CMatrix10GetElementEii')
+	.sect	'.debug_line'
+.L105:
+	.word	.L319-.L318
+.L318:
+	.half	3
+	.word	.L321-.L320
+.L320:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L321:
+	.byte	5,44,7,0,5,2
+	.word	.L44
+	.byte	3,48,1,5,47,9
+	.half	.L322-.L44
+	.byte	1,5,27,9
+	.half	.L323-.L322
+	.byte	1,5,1,9
+	.half	.L324-.L323
+	.byte	1,9
+	.half	.L6-.L324
+	.byte	3,1,1,7,9
+	.half	.L107-.L6
+	.byte	0,1,1
+.L319:
+	.sdecl	'.debug_ranges',debug,cluster('_ZNK7CMatrix10GetElementEii')
+	.sect	'.debug_ranges'
+.L106:
+	.word	-1,.L44,0,.L107-.L44,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrix10SetElementEiid')
+	.sect	'.debug_info'
+.L108:
+	.word	357
+	.half	3
+	.word	.L109
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L111,.L110
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrix10SetElementEiid',0,1,53,6,1,1,1
+	.word	.L46,.L186,.L45
+	.byte	4
+	.byte	'this',0,1,53,57
+	.word	.L187,.L188
+	.byte	4
+	.byte	'__2850_30_r',0,1,53,68
+	.word	.L147,.L189
+	.byte	4
+	.byte	'__2850_37_c',0,1,53,86
+	.word	.L147,.L190
+	.byte	4
+	.byte	'__2850_47_v',0,1,53,107
+	.word	.L155,.L191
+	.byte	5
+	.word	.L46,.L186
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrix10SetElementEiid')
+	.sect	'.debug_abbrev'
+.L109:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrix10SetElementEiid')
+	.sect	'.debug_line'
+.L110:
+	.word	.L326-.L325
+.L325:
+	.half	3
+	.word	.L328-.L327
+.L327:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L328:
+	.byte	5,38,7,0,5,2
+	.word	.L46
+	.byte	3,53,1,5,41,9
+	.half	.L329-.L46
+	.byte	1,5,21,9
+	.half	.L330-.L329
+	.byte	1,5,58,9
+	.half	.L331-.L330
+	.byte	1,5,1,9
+	.half	.L332-.L331
+	.byte	3,1,1,7,9
+	.half	.L112-.L332
+	.byte	0,1,1
+.L326:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrix10SetElementEiid')
+	.sect	'.debug_ranges'
+.L111:
+	.word	-1,.L46,0,.L112-.L46,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrix9AddScalarEd')
+	.sect	'.debug_info'
+.L113:
+	.word	340
+	.half	3
+	.word	.L114
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L116,.L115
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrix9AddScalarEd',0,1,58,6,1,1,1
+	.word	.L48,.L192,.L47
+	.byte	4
+	.byte	'this',0,1,58,53
+	.word	.L193,.L194
+	.byte	4
+	.byte	'__2855_32_s',0,1,58,67
+	.word	.L155,.L195
+	.byte	5
+	.word	.L48,.L192
+	.byte	5
+	.word	.L48,.L196
+	.byte	6
+	.byte	'__2856_14_i',0,1,59,10
+	.word	.L147,.L197
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrix9AddScalarEd')
+	.sect	'.debug_abbrev'
+.L114:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrix9AddScalarEd')
+	.sect	'.debug_line'
+.L115:
+	.word	.L334-.L333
+.L333:
+	.half	3
+	.word	.L336-.L335
+.L335:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L336:
+	.byte	5,35,7,0,5,2
+	.word	.L48
+	.byte	3,58,1,5,64,9
+	.half	.L255-.L48
+	.byte	1,5,21,9
+	.half	.L8-.L255
+	.byte	3,1,1,5,36,9
+	.half	.L337-.L8
+	.byte	1,5,77,9
+	.half	.L338-.L337
+	.byte	3,127,1,5,62,9
+	.half	.L7-.L338
+	.byte	1,5,64,9
+	.half	.L339-.L7
+	.byte	1,5,1,7,9
+	.half	.L196-.L339
+	.byte	3,3,1,7,9
+	.half	.L117-.L196
+	.byte	0,1,1
+.L334:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrix9AddScalarEd')
+	.sect	'.debug_ranges'
+.L116:
+	.word	-1,.L48,0,.L117-.L48,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrix9MulScalarEd')
+	.sect	'.debug_info'
+.L118:
+	.word	340
+	.half	3
+	.word	.L119
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L121,.L120
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrix9MulScalarEd',0,1,65,6,1,1,1
+	.word	.L50,.L198,.L49
+	.byte	4
+	.byte	'this',0,1,65,53
+	.word	.L199,.L200
+	.byte	4
+	.byte	'__2862_32_s',0,1,65,67
+	.word	.L155,.L201
+	.byte	5
+	.word	.L50,.L198
+	.byte	5
+	.word	.L50,.L202
+	.byte	6
+	.byte	'__2863_14_i',0,1,66,10
+	.word	.L147,.L203
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrix9MulScalarEd')
+	.sect	'.debug_abbrev'
+.L119:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrix9MulScalarEd')
+	.sect	'.debug_line'
+.L120:
+	.word	.L341-.L340
+.L340:
+	.half	3
+	.word	.L343-.L342
+.L342:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L343:
+	.byte	5,35,7,0,5,2
+	.word	.L50
+	.byte	3,193,0,1,5,64,9
+	.half	.L256-.L50
+	.byte	1,5,21,9
+	.half	.L10-.L256
+	.byte	3,1,1,5,36,9
+	.half	.L344-.L10
+	.byte	1,5,77,9
+	.half	.L345-.L344
+	.byte	3,127,1,5,62,9
+	.half	.L9-.L345
+	.byte	1,5,64,9
+	.half	.L346-.L9
+	.byte	1,5,1,7,9
+	.half	.L202-.L346
+	.byte	3,3,1,7,9
+	.half	.L122-.L202
+	.byte	0,1,1
+.L341:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrix9MulScalarEd')
+	.sect	'.debug_ranges'
+.L121:
+	.word	-1,.L50,0,.L122-.L50,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrix4PlusERS_')
+	.sect	'.debug_info'
+.L123:
+	.word	337
+	.half	3
+	.word	.L124
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L126,.L125
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrix4PlusERS_',0,1,72,6,1,1,1
+	.word	.L52,.L204,.L51
+	.byte	4
+	.byte	'this',0,1,72,50
+	.word	.L205,.L206
+	.byte	4
+	.byte	'__2869_29_m',0,1,72,73
+	.word	.L207,.L208
+	.byte	5
+	.word	.L52,.L204
+	.byte	5
+	.word	.L52,.L209
+	.byte	6
+	.byte	'__2870_14_i',0,1,73,10
+	.word	.L147,.L210
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrix4PlusERS_')
+	.sect	'.debug_abbrev'
+.L124:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrix4PlusERS_')
+	.sect	'.debug_line'
+.L125:
+	.word	.L348-.L347
+.L347:
+	.half	3
+	.word	.L350-.L349
+.L349:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L350:
+	.byte	5,35,7,0,5,2
+	.word	.L52
+	.byte	3,200,0,1,5,64,9
+	.half	.L257-.L52
+	.byte	1,5,21,9
+	.half	.L12-.L257
+	.byte	3,1,1,5,66,9
+	.half	.L351-.L12
+	.byte	1,5,36,9
+	.half	.L352-.L351
+	.byte	1,5,77,9
+	.half	.L353-.L352
+	.byte	3,127,1,5,62,9
+	.half	.L11-.L353
+	.byte	1,5,64,9
+	.half	.L354-.L11
+	.byte	1,5,1,7,9
+	.half	.L209-.L354
+	.byte	3,3,1,7,9
+	.half	.L127-.L209
+	.byte	0,1,1
+.L348:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrix4PlusERS_')
+	.sect	'.debug_ranges'
+.L126:
+	.word	-1,.L52,0,.L127-.L52,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZNK7CMatrix3AddERS_')
+	.sect	'.debug_info'
+.L128:
+	.word	354
+	.half	3
+	.word	.L129
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L131,.L130
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZNK7CMatrix3AddERS_',0,1,79,6,1,1,1
+	.word	.L54,.L211,.L53
+	.byte	4
+	.byte	'__T4',0,1,79,44
+	.word	.L207,.L212
+	.byte	4
+	.byte	'this',0,1,79,79
+	.word	.L213,.L214
+	.byte	4
+	.byte	'__2876_31_m',0,1,79,102
+	.word	.L207,.L215
+	.byte	5
+	.word	.L54,.L211
+	.byte	5
+	.word	.L216,.L217
+	.byte	6
+	.byte	'__2880_14_i',0,1,83,10
+	.word	.L147,.L218
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZNK7CMatrix3AddERS_')
+	.sect	'.debug_abbrev'
+.L129:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZNK7CMatrix3AddERS_')
+	.sect	'.debug_line'
+.L130:
+	.word	.L356-.L355
+.L355:
+	.half	3
+	.word	.L358-.L357
+.L357:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L358:
+	.byte	5,6,7,0,5,2
+	.word	.L54
+	.byte	3,206,0,1,5,26,9
+	.half	.L259-.L54
+	.byte	3,2,1,5,35,9
+	.half	.L216-.L259
+	.byte	3,2,1,5,64,9
+	.half	.L260-.L216
+	.byte	1,5,21,9
+	.half	.L14-.L260
+	.byte	3,1,1,5,66,9
+	.half	.L359-.L14
+	.byte	1,5,36,9
+	.half	.L360-.L359
+	.byte	1,5,77,9
+	.half	.L361-.L360
+	.byte	3,127,1,5,62,9
+	.half	.L13-.L361
+	.byte	1,5,64,9
+	.half	.L362-.L13
+	.byte	1,5,1,7,9
+	.half	.L217-.L362
+	.byte	3,3,1,9
+	.half	.L15-.L217
+	.byte	3,1,1,7,9
+	.half	.L132-.L15
+	.byte	0,1,1
+.L356:
+	.sdecl	'.debug_ranges',debug,cluster('_ZNK7CMatrix3AddERS_')
+	.sect	'.debug_ranges'
+.L131:
+	.word	-1,.L54,0,.L132-.L54,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZNK7CMatrix3MulERKS_')
+	.sect	'.debug_info'
+.L133:
+	.word	530
+	.half	3
+	.word	.L134
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L136,.L135
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZNK7CMatrix3MulERKS_',0,1,101,6,1,1,1
+	.word	.L56,.L219,.L55
+	.byte	4
+	.byte	'__T5',0,1,101,45
+	.word	.L207,.L220
+	.byte	4
+	.byte	'this',0,1,101,80
+	.word	.L221,.L222
+	.byte	4
+	.byte	'__2898_37_m',0,1,101,109
+	.word	.L175,.L223
+	.byte	5
+	.word	.L56,.L219
+	.byte	5
+	.word	.L224,.L225
+	.byte	6
+	.byte	'__2903_14_nRa',0,1,106,10
+	.word	.L147,.L226
+	.byte	5
+	.word	.L17,.L227
+	.byte	6
+	.byte	'__2904_23_pfRa',0,1,107,20
+	.word	.L166,.L228
+	.byte	5
+	.word	.L229,.L227
+	.byte	6
+	.byte	'__2906_18_nCb',0,1,109,10
+	.word	.L147,.L230
+	.byte	5
+	.word	.L19,.L231
+	.byte	6
+	.byte	'__2907_27_pfCb',0,1,110,20
+	.word	.L166,.L232
+	.byte	6
+	.byte	'__2908_20_fSum',0,1,111,13
+	.word	.L155,.L233
+	.byte	5
+	.word	.L234,.L235
+	.byte	6
+	.byte	'__2910_22_nCa',0,1,113,10
+	.word	.L147,.L236
+	.byte	0,0,0,0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZNK7CMatrix3MulERKS_')
+	.sect	'.debug_abbrev'
+.L134:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZNK7CMatrix3MulERKS_')
+	.sect	'.debug_line'
+.L135:
+	.word	.L364-.L363
+.L363:
+	.half	3
+	.word	.L366-.L365
+.L365:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L366:
+	.byte	5,6,7,0,5,2
+	.word	.L56
+	.byte	3,228,0,1,5,26,9
+	.half	.L263-.L56
+	.byte	3,2,1,5,39,9
+	.half	.L224-.L263
+	.byte	3,3,1,5,70,9
+	.half	.L264-.L224
+	.byte	1,5,91,9
+	.half	.L17-.L264
+	.byte	3,1,1,5,74,9
+	.half	.L367-.L17
+	.byte	1,5,39,9
+	.half	.L229-.L367
+	.byte	3,2,1,5,70,9
+	.half	.L265-.L229
+	.byte	1,5,28,9
+	.half	.L19-.L265
+	.byte	3,2,1,5,46,9
+	.half	.L266-.L19
+	.byte	3,127,1,5,39,9
+	.half	.L234-.L266
+	.byte	3,3,1,5,70,9
+	.half	.L268-.L234
+	.byte	1,5,35,9
+	.half	.L21-.L268
+	.byte	3,1,1,5,85,9
+	.half	.L368-.L21
+	.byte	1,5,69,9
+	.half	.L369-.L368
+	.byte	1,5,16,9
+	.half	.L370-.L369
+	.byte	1,5,85,9
+	.half	.L371-.L370
+	.byte	3,127,1,5,70,9
+	.half	.L20-.L371
+	.byte	1,5,40,7,9
+	.half	.L235-.L20
+	.byte	3,3,1,5,43,9
+	.half	.L372-.L235
+	.byte	1,5,21,9
+	.half	.L373-.L372
+	.byte	1,5,62,9
+	.half	.L267-.L373
+	.byte	1,5,85,9
+	.half	.L231-.L267
+	.byte	3,121,1,5,70,9
+	.half	.L18-.L231
+	.byte	1,5,85,7,9
+	.half	.L227-.L18
+	.byte	3,125,1,5,70,9
+	.half	.L16-.L227
+	.byte	1,5,1,7,9
+	.half	.L225-.L16
+	.byte	3,13,1,9
+	.half	.L22-.L225
+	.byte	3,1,1,7,9
+	.half	.L137-.L22
+	.byte	0,1,1
+.L364:
+	.sdecl	'.debug_ranges',debug,cluster('_ZNK7CMatrix3MulERKS_')
+	.sect	'.debug_ranges'
+.L136:
+	.word	-1,.L56,0,.L137-.L56,0,0
+	.sdecl	'.debug_info',debug,cluster('_ZN7CMatrix9TransposeEv')
+	.sect	'.debug_info'
+.L138:
+	.word	378
+	.half	3
+	.word	.L139
+	.byte	4,1
+	.byte	'../MatricLib/CMatrix.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Matrix\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L141,.L140
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'_ZN7CMatrix9TransposeEv',0,1,90,6,1,1,1
+	.word	.L58,.L237,.L57
+	.byte	4
+	.byte	'this',0,1,90,53
+	.word	.L238,.L239
+	.byte	5
+	.word	.L58,.L237
+	.byte	6
+	.byte	'__2889_13_tmp',0,1,92,21
+	.word	.L240,.L241
+	.byte	5
+	.word	.L242,.L243
+	.byte	6
+	.byte	'__2890_14_nR',0,1,93,10
+	.word	.L147,.L244
+	.byte	5
+	.word	.L24,.L245
+	.byte	6
+	.byte	'__2891_18_nC',0,1,94,10
+	.word	.L147,.L246
+	.byte	0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('_ZN7CMatrix9TransposeEv')
+	.sect	'.debug_abbrev'
+.L139:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('_ZN7CMatrix9TransposeEv')
+	.sect	'.debug_line'
+.L140:
+	.word	.L375-.L374
+.L374:
+	.half	3
+	.word	.L377-.L376
+.L376:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MatricLib/CMatrix.cpp',0,0,0,0,0
+.L377:
+	.byte	5,6,7,0,5,2
+	.word	.L58
+	.byte	3,217,0,1,5,57,9
+	.half	.L271-.L58
+	.byte	3,2,1,5,74,9
+	.half	.L270-.L271
+	.byte	1,5,37,9
+	.half	.L242-.L270
+	.byte	3,1,1,5,67,9
+	.half	.L273-.L242
+	.byte	1,5,37,9
+	.half	.L24-.L273
+	.byte	3,1,1,5,67,9
+	.half	.L274-.L24
+	.byte	1,5,39,9
+	.half	.L26-.L274
+	.byte	3,1,1,5,42,9
+	.half	.L378-.L26
+	.byte	1,5,21,9
+	.half	.L379-.L378
+	.byte	1,5,108,9
+	.half	.L380-.L379
+	.byte	1,5,111,9
+	.half	.L381-.L380
+	.byte	1,5,90,9
+	.half	.L382-.L381
+	.byte	1,5,60,9
+	.half	.L383-.L382
+	.byte	1,5,81,9
+	.half	.L384-.L383
+	.byte	3,127,1,5,67,9
+	.half	.L25-.L384
+	.byte	1,5,81,7,9
+	.half	.L245-.L25
+	.byte	3,127,1,5,67,9
+	.half	.L23-.L245
+	.byte	1,5,1,7,9
+	.half	.L243-.L23
+	.byte	3,5,1,7,9
+	.half	.L142-.L243
+	.byte	0,1,1
+.L375:
+	.sdecl	'.debug_ranges',debug,cluster('_ZN7CMatrix9TransposeEv')
+	.sect	'.debug_ranges'
+.L141:
+	.word	-1,.L58,0,.L142-.L58,0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrix10SetElementEiid')
+	.sect	'.debug_loc'
+.L45:
+	.word	-1,.L46,0,.L186-.L46
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L189:
+	.word	-1,.L46,0,.L186-.L46
+	.half	1
+	.byte	84
+	.word	0,0
+.L190:
+	.word	-1,.L46,0,.L186-.L46
+	.half	1
+	.byte	85
+	.word	0,0
+.L191:
+	.word	-1,.L46,0,.L186-.L46
+	.half	1
+	.byte	86
+	.word	0,0
+.L188:
+	.word	-1,.L46,0,.L186-.L46
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrix4PlusERS_')
+	.sect	'.debug_loc'
+.L51:
+	.word	-1,.L52,0,.L204-.L52
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L208:
+	.word	-1,.L52,0,.L204-.L52
+	.half	1
+	.byte	101
+	.word	0,0
+.L210:
+	.word	-1,.L52,.L257-.L52,.L204-.L52
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L206:
+	.word	-1,.L52,0,.L204-.L52
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrix9AddScalarEd')
+	.sect	'.debug_loc'
+.L47:
+	.word	-1,.L48,0,.L192-.L48
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L195:
+	.word	-1,.L48,0,.L192-.L48
+	.half	1
+	.byte	84
+	.word	0,0
+.L197:
+	.word	-1,.L48,.L255-.L48,.L192-.L48
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L194:
+	.word	-1,.L48,0,.L192-.L48
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrix9MulScalarEd')
+	.sect	'.debug_loc'
+.L49:
+	.word	-1,.L50,0,.L198-.L50
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L201:
+	.word	-1,.L50,0,.L198-.L50
+	.half	1
+	.byte	84
+	.word	0,0
+.L203:
+	.word	-1,.L50,.L256-.L50,.L198-.L50
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L200:
+	.word	-1,.L50,0,.L198-.L50
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrix9TransposeEv')
+	.sect	'.debug_loc'
+.L57:
+	.word	-1,.L58,0,.L269-.L58
+	.half	2
+	.byte	138,0
+	.word	.L269-.L58,.L237-.L58
+	.half	2
+	.byte	138,40
+	.word	.L237-.L58,.L237-.L58
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L241:
+	.word	-1,.L58,0,.L237-.L58
+	.half	2
+	.byte	145,88
+	.word	0,0
+.L244:
+	.word	-1,.L58,.L273-.L58,.L237-.L58
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L246:
+	.word	-1,.L58,.L274-.L58,.L23-.L58
+	.half	1
+	.byte	81
+	.word	0,0
+.L239:
+	.word	-1,.L58,0,.L270-.L58
+	.half	1
+	.byte	100
+	.word	.L271-.L58,.L237-.L58
+	.half	1
+	.byte	111
+	.word	.L272-.L58,.L242-.L58
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC1EPKd')
+	.sect	'.debug_loc'
+.L35:
+	.word	-1,.L36,0,.L163-.L36
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L167:
+	.word	-1,.L36,0,.L251-.L36
+	.half	1
+	.byte	101
+	.word	0,0
+.L165:
+	.word	-1,.L36,0,.L251-.L36
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC1ERKS_')
+	.sect	'.debug_loc'
+.L39:
+	.word	-1,.L40,0,.L172-.L40
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L176:
+	.word	-1,.L40,0,.L253-.L40
+	.half	1
+	.byte	101
+	.word	0,0
+.L174:
+	.word	-1,.L40,0,.L253-.L40
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC1Ed')
+	.sect	'.debug_loc'
+.L31:
+	.word	-1,.L32,0,.L152-.L32
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L156:
+	.word	-1,.L32,0,.L152-.L32
+	.half	1
+	.byte	84
+	.word	0,0
+.L158:
+	.word	-1,.L32,.L249-.L32,.L152-.L32
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L154:
+	.word	-1,.L32,0,.L152-.L32
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC1Ev')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L143-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L148:
+	.word	-1,.L28,.L247-.L28,.L143-.L28
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L145:
+	.word	-1,.L28,0,.L143-.L28
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC2EPKd')
+	.sect	'.debug_loc'
+.L37:
+	.word	-1,.L38,0,.L168-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L171:
+	.word	-1,.L38,0,.L252-.L38
+	.half	1
+	.byte	101
+	.word	0,0
+.L170:
+	.word	-1,.L38,0,.L252-.L38
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC2ERKS_')
+	.sect	'.debug_loc'
+.L41:
+	.word	-1,.L42,0,.L177-.L42
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L180:
+	.word	-1,.L42,0,.L254-.L42
+	.half	1
+	.byte	101
+	.word	0,0
+.L179:
+	.word	-1,.L42,0,.L254-.L42
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC2Ed')
+	.sect	'.debug_loc'
+.L33:
+	.word	-1,.L34,0,.L159-.L34
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L162:
+	.word	-1,.L34,0,.L250-.L34
+	.half	1
+	.byte	84
+	.word	0,0
+.L161:
+	.word	-1,.L34,0,.L250-.L34
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZN7CMatrixC2Ev')
+	.sect	'.debug_loc'
+.L29:
+	.word	-1,.L30,0,.L149-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L151:
+	.word	-1,.L30,0,.L248-.L30
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZNK7CMatrix10GetElementEii')
+	.sect	'.debug_loc'
+.L43:
+	.word	-1,.L44,0,.L181-.L44
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L184:
+	.word	-1,.L44,0,.L181-.L44
+	.half	1
+	.byte	84
+	.word	0,0
+.L185:
+	.word	-1,.L44,0,.L181-.L44
+	.half	1
+	.byte	85
+	.word	0,0
+.L183:
+	.word	-1,.L44,0,.L181-.L44
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZNK7CMatrix3AddERS_')
+	.sect	'.debug_loc'
+.L53:
+	.word	-1,.L54,0,.L211-.L54
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L215:
+	.word	-1,.L54,0,.L216-.L54
+	.half	1
+	.byte	102
+	.word	.L259-.L54,.L211-.L54
+	.half	1
+	.byte	109
+	.word	0,0
+.L218:
+	.word	-1,.L54,.L260-.L54,.L211-.L54
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L212:
+	.word	-1,.L54,0,.L216-.L54
+	.half	1
+	.byte	100
+	.word	.L258-.L54,.L211-.L54
+	.half	1
+	.byte	108
+	.word	0,0
+.L214:
+	.word	-1,.L54,0,.L216-.L54
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('_ZNK7CMatrix3MulERKS_')
+	.sect	'.debug_loc'
+.L55:
+	.word	-1,.L56,0,.L219-.L56
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L223:
+	.word	-1,.L56,0,.L224-.L56
+	.half	1
+	.byte	102
+	.word	.L263-.L56,.L219-.L56
+	.half	1
+	.byte	110
+	.word	0,0
+.L226:
+	.word	-1,.L56,.L264-.L56,.L219-.L56
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L228:
+	.word	-1,.L56,.L229-.L56,.L16-.L56
+	.half	1
+	.byte	111
+	.word	0,0
+.L230:
+	.word	-1,.L56,.L265-.L56,.L16-.L56
+	.half	1
+	.byte	81
+	.word	0,0
+.L232:
+	.word	-1,.L56,.L234-.L56,.L267-.L56
+	.half	1
+	.byte	98
+	.word	0,0
+.L233:
+	.word	-1,.L56,.L266-.L56,.L18-.L56
+	.half	1
+	.byte	82
+	.word	0,0
+.L236:
+	.word	-1,.L56,.L268-.L56,.L18-.L56
+	.half	1
+	.byte	83
+	.word	0,0
+.L220:
+	.word	-1,.L56,0,.L224-.L56
+	.half	1
+	.byte	100
+	.word	.L261-.L56,.L219-.L56
+	.half	1
+	.byte	108
+	.word	0,0
+.L222:
+	.word	-1,.L56,0,.L224-.L56
+	.half	1
+	.byte	101
+	.word	.L262-.L56,.L219-.L56
+	.half	1
+	.byte	109
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L385:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC1Ev')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L385,.L28,.L143-.L28
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC2Ev')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L30,.L149-.L30
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC1Ed')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L385,.L32,.L152-.L32
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC2Ed')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L34,.L159-.L34
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC1EPKd')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L36,.L163-.L36
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC2EPKd')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L38,.L168-.L38
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC1ERKS_')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L40,.L172-.L40
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrixC2ERKS_')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L42,.L177-.L42
+	.sdecl	'.debug_frame',debug,cluster('_ZNK7CMatrix10GetElementEii')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L385,.L44,.L181-.L44
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrix10SetElementEiid')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L385,.L46,.L186-.L46
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrix9AddScalarEd')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L385,.L48,.L192-.L48
+	.byte	8,19,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrix9MulScalarEd')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L385,.L50,.L198-.L50
+	.byte	8,19,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrix4PlusERS_')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L385,.L52,.L204-.L52
+	.byte	8,19,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('_ZNK7CMatrix3AddERS_')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L54,.L211-.L54
+	.sdecl	'.debug_frame',debug,cluster('_ZNK7CMatrix3MulERKS_')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L385,.L56,.L219-.L56
+	.sdecl	'.debug_frame',debug,cluster('_ZN7CMatrix9TransposeEv')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L385,.L58,.L237-.L58
+	.byte	4
+	.word	(.L269-.L58)/2
+	.byte	19,40,22,26,3,19,138,40,4
+	.word	(.L237-.L269)/2
+	.byte	19,0,8,26,0,0
+	; Module end

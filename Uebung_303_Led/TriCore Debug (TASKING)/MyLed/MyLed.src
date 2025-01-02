@@ -1,0 +1,541 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc8172c -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Configurations -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Service -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\MyLed -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 --no-warnings -o MyLed/MyLed.src cc8172a.ic"
+	.compiler_name		"ctc"
+	;source	'../MyLed/MyLed.cpp'
+
+	
+$TC162
+	
+	.sdecl	'.text.MyLed.TurnOnLed1',code,cluster('TurnOnLed1')
+	.sect	'.text.MyLed.TurnOnLed1'
+	.align	2
+	
+	.global	TurnOnLed1
+; Function TurnOnLed1
+.L3:
+TurnOnLed1:	.type	func
+	movh.a	a4,#@his(myLed1)
+	lea	a4,[a4]@los(myLed1)
+	call	_ZN4CLed6TurnOnEv
+.L43:
+	ret
+.L31:
+	
+__TurnOnLed1_function_end:
+	.size	TurnOnLed1,__TurnOnLed1_function_end-TurnOnLed1
+.L16:
+	; End of function
+	
+	.sdecl	'.text.MyLed.TestLeds',code,cluster('TestLeds')
+	.sect	'.text.MyLed.TestLeds'
+	.align	2
+	
+	.global	TestLeds
+; Function TestLeds
+.L5:
+TestLeds:	.type	func
+	movh.a	a4,#@his(myLed1)
+	lea	a4,[a4]@los(myLed1)
+	call	_ZN4CLed6ToggleEv
+.L48:
+	movh.a	a4,#@his(myLed2)
+	lea	a4,[a4]@los(myLed2)
+	call	_ZN4CLed6ToggleEv
+.L49:
+	mov	d4,#200
+	call	waitTime
+.L50:
+	movh.a	a4,#@his(myLed2)
+	lea	a4,[a4]@los(myLed2)
+	call	_ZN4CLed6ToggleEv
+.L51:
+	movh.a	a4,#@his(myLed1)
+	lea	a4,[a4]@los(myLed1)
+	call	_ZN4CLed6ToggleEv
+.L52:
+	mov	d4,#200
+	call	waitTime
+.L53:
+	ret
+.L32:
+	
+__TestLeds_function_end:
+	.size	TestLeds,__TestLeds_function_end-TestLeds
+.L21:
+	; End of function
+	
+	.sdecl	'.text.MyLed.__sti___9_MyLed_cpp_myLed1',code,cluster('__sti___9_MyLed_cpp_myLed1')
+	.sect	'.text.MyLed.__sti___9_MyLed_cpp_myLed1'
+	.align	2
+	
+	.global	__sti___9_MyLed_cpp_myLed1
+; Function __sti___9_MyLed_cpp_myLed1
+.L7:
+__sti___9_MyLed_cpp_myLed1:	.type	func
+	movh.a	a4,#@his(myLed1)
+	lea	a4,[a4]@los(myLed1)
+.L58:
+	movh.a	a5,#61444
+	lea	a5,[a5]@los(0xf003a000)
+.L59:
+	mov	d4,#5
+.L60:
+	mov	d5,#1
+	call	_ZN4CLedC1EPV6_Ifx_Phb
+.L61:
+	movh.a	a4,#@his(_ZN4CLedD1Ev)
+	lea	a4,[a4]@los(_ZN4CLedD1Ev)
+.L62:
+	movh.a	a5,#@his(myLed1)
+	lea	a5,[a5]@los(myLed1)
+.L63:
+	movh.a	a6,#@his(__dso_handle)
+	lea	a6,[a6]@los(__dso_handle)
+	call	__cxa_atexit
+.L64:
+	movh.a	a4,#@his(myLed2)
+	lea	a4,[a4]@los(myLed2)
+.L65:
+	movh.a	a5,#61444
+	lea	a5,[a5]@los(0xf003a000)
+.L66:
+	mov	d4,#6
+.L67:
+	mov	d5,#1
+	call	_ZN4CLedC1EPV6_Ifx_Phb
+.L68:
+	movh.a	a4,#@his(_ZN4CLedD1Ev)
+	lea	a4,[a4]@los(_ZN4CLedD1Ev)
+.L69:
+	movh.a	a5,#@his(myLed2)
+	lea	a5,[a5]@los(myLed2)
+.L70:
+	movh.a	a6,#@his(__dso_handle)
+	lea	a6,[a6]@los(__dso_handle)
+	call	__cxa_atexit
+.L71:
+	ret
+.L33:
+	
+____sti___9_MyLed_cpp_myLed1_function_end:
+	.size	__sti___9_MyLed_cpp_myLed1,____sti___9_MyLed_cpp_myLed1_function_end-__sti___9_MyLed_cpp_myLed1
+.L26:
+	; End of function
+	
+	.sdecl	'.bss.MyLed.myLed1',data,cluster('myLed1')
+	.sect	'.bss.MyLed.myLed1'
+	.global	myLed1
+	.align	4
+myLed1:	.type	object
+	.size	myLed1,8
+	.space	8
+	.sdecl	'.bss.MyLed.myLed2',data,cluster('myLed2')
+	.sect	'.bss.MyLed.myLed2'
+	.global	myLed2
+	.align	4
+myLed2:	.type	object
+	.size	myLed2,8
+	.space	8
+	.calls	'__INDIRECT__','_ZN4CLedD1Ev'
+	.calls	'TurnOnLed1','_ZN4CLed6TurnOnEv'
+	.calls	'TestLeds','_ZN4CLed6ToggleEv'
+	.calls	'TestLeds','waitTime'
+	.calls	'__sti___9_MyLed_cpp_myLed1','_ZN4CLedC1EPV6_Ifx_Phb'
+	.calls	'__sti___9_MyLed_cpp_myLed1','__cxa_atexit'
+	.calls	'TurnOnLed1','',0
+	.calls	'TestLeds','',0
+	.extern	waitTime
+	.extern	_ZN4CLedC1EPV6_Ifx_Phb
+	.extern	_ZN4CLedD1Ev
+	.extern	_ZN4CLed6TurnOnEv
+	.extern	_ZN4CLed6ToggleEv
+	.extern	__cxa_atexit
+	.extern	__dso_handle
+	.extern	__INDIRECT__
+	.calls	'__sti___9_MyLed_cpp_myLed1','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L9:
+	.word	726
+	.half	3
+	.word	.L10
+	.byte	4
+.L8:
+	.byte	1
+	.byte	'../MyLed/MyLed.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Led\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L11
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'waitTime',0,1,164,1,13,1,1,1,1,4
+	.byte	'timeout',0,1,164,1,31
+	.word	196
+	.byte	0,5
+	.byte	'_Ifx_P',0,3,220,5,8,1,6
+	.word	248
+	.byte	7
+	.word	261
+	.byte	2
+	.byte	'unsigned char',0,1,8,2
+	.byte	'char',0,1,6
+.L34:
+	.byte	8
+	.byte	'CLed',0,2,40,8,8,9
+	.byte	'port',0
+	.word	266
+	.byte	4,2,35,0,9
+	.byte	'pinIndex',0
+	.word	271
+	.byte	1,2,35,4,9
+	.byte	'isLowLevelActive',0
+	.word	288
+	.byte	1,2,35,5,0,7
+	.word	296
+	.byte	10
+	.word	365
+	.byte	3
+	.byte	'_ZN4CLedC1EPV6_Ifx_Phb',0,2,50,13,1,1,1,1,11,2,50,48
+	.word	370
+	.byte	4
+	.byte	'port',0,2,50,63
+	.word	266
+	.byte	4
+	.byte	'pinIndex',0,2,50,75
+	.word	271
+	.byte	4
+	.byte	'isLowLevelActive',0,2,50,90
+	.word	288
+	.byte	0,10
+	.word	365
+	.byte	3
+	.byte	'_ZN4CLedD1Ev',0,2,51,13,1,1,1,1,11,2,51,38
+	.word	470
+	.byte	0,10
+	.word	365
+	.byte	3
+	.byte	'_ZN4CLed6TurnOnEv',0,2,53,13,1,1,1,1,11,2,53,43
+	.word	505
+	.byte	0,10
+	.word	365
+	.byte	3
+	.byte	'_ZN4CLed6ToggleEv',0,2,55,13,1,1,1,1,11,2,55,43
+	.word	545
+	.byte	0,2
+	.byte	'int',0,4,5,12
+	.byte	'__cxa_atexit',0,2,55,109
+	.word	585
+	.byte	1,1,1,13
+	.byte	'__INDIRECT__',0,4,1,1,1,1,1,14,1,7
+	.word	636
+	.byte	15
+	.byte	'__codeptr',0,4,1,1
+	.word	638
+	.byte	15
+	.byte	'uint8',0,5,108,23
+	.word	271
+	.byte	6
+	.word	248
+	.byte	15
+	.byte	'Ifx_P',0,3,128,6,32
+	.word	675
+	.byte	16
+	.byte	'void',0,7
+	.word	695
+	.byte	17
+	.byte	'__dso_handle',0,4,12,40
+	.word	701
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L10:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,19,0,3,8,58,15,59,15,57,15,60,12,0
+	.byte	0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,19,1,3,8,58,15,59,15,57,15,11,15,0,0,9,13,0,3,8,73,19,11,15,56,9
+	.byte	0,0,10,38,0,73,19,0,0,11,5,0,58,15,59,15,57,15,73,19,0,0,12,46,0,3,8,58,15,59,15,57,15,73,19,54,15,63
+	.byte	12,60,12,0,0,13,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,14,21,0,54,15,0,0,15,22,0,3,8,58,15,59
+	.byte	15,57,15,73,19,0,0,16,59,0,3,8,0,0,17,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L11:
+	.word	.L36-.L35
+.L35:
+	.half	3
+	.word	.L38-.L37
+.L37:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp',0
+	.byte	'C:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\MyLed',0
+	.byte	'C:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
+	.byte	'C:\\\\Users\\\\carolina\\\\AURIX-v1.10.6-workspace\\\\Uebung_303_Led\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'Bsp.h',0,1,0,0
+	.byte	'CLed.h',0,2,0,0
+	.byte	'IfxPort_regdef.h',0,3,0,0
+	.byte	'../MyLed/MyLed.cpp',0,0,0,0
+	.byte	'Platform_Types.h',0,4,0,0,0
+.L38:
+.L36:
+	.sdecl	'.debug_info',debug,cluster('TurnOnLed1')
+	.sect	'.debug_info'
+.L12:
+	.word	242
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'../MyLed/MyLed.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Led\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L15,.L14
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'TurnOnLed1',0,1,18,6,1,1,1
+	.word	.L3,.L31,.L2
+	.byte	4
+	.word	.L3,.L31
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TurnOnLed1')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TurnOnLed1')
+	.sect	'.debug_line'
+.L14:
+	.word	.L40-.L39
+.L39:
+	.half	3
+	.word	.L42-.L41
+.L41:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MyLed/MyLed.cpp',0,0,0,0,0
+.L42:
+	.byte	5,21,7,0,5,2
+	.word	.L3
+	.byte	3,19,1,5,1,9
+	.half	.L43-.L3
+	.byte	3,1,1,7,9
+	.half	.L16-.L43
+	.byte	0,1,1
+.L40:
+	.sdecl	'.debug_ranges',debug,cluster('TurnOnLed1')
+	.sect	'.debug_ranges'
+.L15:
+	.word	-1,.L3,0,.L16-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('TestLeds')
+	.sect	'.debug_info'
+.L17:
+	.word	240
+	.half	3
+	.word	.L18
+	.byte	4,1
+	.byte	'../MyLed/MyLed.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Led\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L20,.L19
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'TestLeds',0,1,24,6,1,1,1
+	.word	.L5,.L32,.L4
+	.byte	4
+	.word	.L5,.L32
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('TestLeds')
+	.sect	'.debug_abbrev'
+.L18:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TestLeds')
+	.sect	'.debug_line'
+.L19:
+	.word	.L45-.L44
+.L44:
+	.half	3
+	.word	.L47-.L46
+.L46:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MyLed/MyLed.cpp',0,0,0,0,0
+.L47:
+	.byte	5,21,7,0,5,2
+	.word	.L5
+	.byte	3,26,1,9
+	.half	.L48-.L5
+	.byte	3,3,1,5,10,9
+	.half	.L49-.L48
+	.byte	3,3,1,5,21,9
+	.half	.L50-.L49
+	.byte	3,3,1,9
+	.half	.L51-.L50
+	.byte	3,3,1,5,10,9
+	.half	.L52-.L51
+	.byte	3,3,1,5,1,9
+	.half	.L53-.L52
+	.byte	3,1,1,7,9
+	.half	.L21-.L53
+	.byte	0,1,1
+.L45:
+	.sdecl	'.debug_ranges',debug,cluster('TestLeds')
+	.sect	'.debug_ranges'
+.L20:
+	.word	-1,.L5,0,.L21-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('__sti___9_MyLed_cpp_myLed1')
+	.sect	'.debug_info'
+.L22:
+	.word	258
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'../MyLed/MyLed.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Led\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L25,.L24
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'__sti___9_MyLed_cpp_myLed1',0,1,43,8,1,1,1
+	.word	.L7,.L33,.L6
+	.byte	4
+	.word	.L7,.L33
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('__sti___9_MyLed_cpp_myLed1')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('__sti___9_MyLed_cpp_myLed1')
+	.sect	'.debug_line'
+.L24:
+	.word	.L55-.L54
+.L54:
+	.half	3
+	.word	.L57-.L56
+.L56:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MyLed/MyLed.cpp',0,0,0,0,0
+.L57:
+	.byte	5,26,7,0,5,2
+	.word	.L7
+	.byte	3,10,1,5,36,9
+	.half	.L58-.L7
+	.byte	1,5,60,9
+	.half	.L59-.L58
+	.byte	1,5,73,9
+	.half	.L60-.L59
+	.byte	1,5,99,9
+	.half	.L61-.L60
+	.byte	1,5,124,9
+	.half	.L62-.L61
+	.byte	1,5,136,1,9
+	.half	.L63-.L62
+	.byte	1,5,26,9
+	.half	.L64-.L63
+	.byte	3,1,1,5,36,9
+	.half	.L65-.L64
+	.byte	1,5,60,9
+	.half	.L66-.L65
+	.byte	1,5,73,9
+	.half	.L67-.L66
+	.byte	1,5,99,9
+	.half	.L68-.L67
+	.byte	1,5,124,9
+	.half	.L69-.L68
+	.byte	1,5,136,1,9
+	.half	.L70-.L69
+	.byte	1,5,153,1,9
+	.half	.L71-.L70
+	.byte	1,7,9
+	.half	.L26-.L71
+	.byte	0,1,1
+.L55:
+	.sdecl	'.debug_ranges',debug,cluster('__sti___9_MyLed_cpp_myLed1')
+	.sect	'.debug_ranges'
+.L25:
+	.word	-1,.L7,0,.L26-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('myLed1')
+	.sect	'.debug_info'
+.L27:
+	.word	216
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'../MyLed/MyLed.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Led\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L8
+	.byte	3
+	.byte	'myLed1',0,4,11,13
+	.word	.L34
+	.byte	1,5,3
+	.word	myLed1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('myLed1')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('myLed2')
+	.sect	'.debug_info'
+.L29:
+	.word	216
+	.half	3
+	.word	.L30
+	.byte	4,1
+	.byte	'../MyLed/MyLed.cpp',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\carolina\\AURIX-v1.10.6-workspace\\Uebung_303_Led\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L8
+	.byte	3
+	.byte	'myLed2',0,4,12,13
+	.word	.L34
+	.byte	1,5,3
+	.word	myLed2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('myLed2')
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('TestLeds')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L32-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('TurnOnLed1')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L31-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('__sti___9_MyLed_cpp_myLed1')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L33-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L72:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('TurnOnLed1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L72,.L3,.L31-.L3
+	.sdecl	'.debug_frame',debug,cluster('TestLeds')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L72,.L5,.L32-.L5
+	.sdecl	'.debug_frame',debug,cluster('__sti___9_MyLed_cpp_myLed1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L72,.L7,.L33-.L7
+	; Module end
