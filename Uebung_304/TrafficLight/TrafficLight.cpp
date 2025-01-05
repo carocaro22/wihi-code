@@ -46,7 +46,7 @@ void setup(void)
     IfxPort_setPinMode(goLight.port, goLight.pin, IfxPort_Mode_outputPushPullGeneral);
 
     // Configure the switch pin as input with pull-up
-    IfxPort_setPinModeInput(portSwitch.port, portSwitch.pin, IfxPort_InputMode_pullUp);
+    IfxPort_setPinModeInput(portSwitch.port, portSwitch.pin, IfxPort_InputMode_pullDown);
 
     // Initialize the Traffic control object
     oTrCntl = CTrafficControl(redLight, yellowLight, greenLight,
@@ -58,8 +58,9 @@ void setup(void)
 void loop(void)
 {
     // First check the operation mode
+    boolean pinState = IfxPort_getPinState(portSwitch.port, portSwitch.pin);
     // ------------------------------
-    if (1) //(digitalRead(PORT_SWITCH) == HIGH)
+    if (0)//(pinState)
     {
         // Inform Traffic Control object about Out-Of-Order Mode
         oTrCntl.SetOpMode(0);

@@ -65,7 +65,7 @@ void core0_main(void)
     /*-------------------------------------------------Modules Initialization--------------------------------------------*/
     /*********************************************************************************************************************/
     // 1.) Initialisaze the MCMCAN module
-    initMcmcan();
+    initMCMCAN();
     // 2.) Initialize ADC Module
     initEVADC();
 
@@ -89,7 +89,7 @@ void core0_main(void)
         // 7.) Calculate temperature
         volatile float T = 1/((1/B_val) * log(R/R_therm25) + (1/T_therm25)) - Kelvin_offset;
 
-        // 8.) Transmit Can Message
+        // 8.) Transmit Can Message - Use Test place number + 100 hex for the CAN-Identifier
         transmitCanMessage(T, 0x106);
 
         // 9.) Wait a second

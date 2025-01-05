@@ -45,9 +45,9 @@
 // (out of order)
 #define TIME_OP_ON_RDY_TO_DRV   10  //   1s - time of red/yellow
 #define TIME_OP_ON_RDY_TO_STP   10  //   1s - time of yellow
-#define TIME_OP_ON_GO_MIN      100  //  10s - minimum time of green
+#define TIME_OP_ON_GO_MIN       40  //  4s - minimum time of green
 #define TIME_OP_ON_PEDEST_SAFE  15  // 1.5s - safety time between red and walk
-#define TIME_OP_ON_PEDEST_WALK  50  //  5s   - time of pedestrian walking
+#define TIME_OP_ON_PEDEST_WALK  40  //  4s   - time of pedestrian walking
 
 // ----------------------------------------------------------------------------
 //  D e f i n i t i o n   C o n s t r u c t o r s

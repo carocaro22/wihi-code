@@ -21,44 +21,60 @@
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
+         <CaretPos>1797</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_304\Cpu0_Main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>6</ScrollPos>
+        </__.1>
+        <__.2>
+         <BookmarkList></BookmarkList>
          <CaretPos>32734</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\iLLD_TC375_ADS_Blinky_LED_CPP\Libraries\iLLD\TC37A\Tricore\Cpu\Std\IfxCpu.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>731</ScrollPos>
-        </__.1>
-        <__.2>
+        </__.2>
+        <__.3>
          <BookmarkList></BookmarkList>
          <CaretPos>0</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_304\Libraries\Infra\Ssw\TC37A\Tricore\Ifx_Ssw_CompilersTasking.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>0</ScrollPos>
-        </__.2>
-        <__.3>
+        </__.3>
+        <__.4>
          <BookmarkList></BookmarkList>
          <CaretPos>7243</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\iLLD_TC375_ADS_Blinky_LED_CPP\Libraries\Infra\Ssw\TC37A\Tricore\Ifx_Ssw_CompilersTasking.h</FileName>
          <FileType>1</FileType>
          <ScrollPos>162</ScrollPos>
-        </__.3>
-        <__.4>
-         <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_304\Libraries\Infra\Ssw\TC37A\Tricore\Ifx_Ssw_Tc0.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
         </__.4>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>0</CaretPos>
+         <CaretPos>12461</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_304\Libraries\Infra\Ssw\TC37A\Tricore\Ifx_Ssw_Tc0.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>309</ScrollPos>
+        </__.5>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>32734</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_304\Libraries\iLLD\TC37A\Tricore\Cpu\Std\IfxCpu.h</FileName>
          <FileType>1</FileType>
-         <ScrollPos>0</ScrollPos>
-        </__.5>
+         <ScrollPos>731</ScrollPos>
+        </__.6>
+        <__.7>
+         <BookmarkList></BookmarkList>
+         <CaretPos>1623</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_304\TrafficLight\TrafficLight.cpp</FileName>
+         <FileType>7</FileType>
+         <ScrollPos>6</ScrollPos>
+        </__.7>
        </EditorPersist>
       </EditorPersist>
      </REG_ROOT>
@@ -129,13 +145,21 @@
         <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <ViewId>1</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>7</ViewId>
+        <ViewType>Document</ViewType>
        </__.5>
        <__.6>
+        <ViewId>8</ViewId>
+        <ViewType>Document</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>1</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.7>
+       <__.8>
         <ViewId>0</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.6>
+       </__.8>
       </AllViewBaseData>
       <DocumentViews>
        <__.0>
@@ -153,6 +177,16 @@
         <ViewId>6</ViewId>
         <ViewType>Document</ViewType>
        </__.2>
+       <__.3>
+        <RelativePath>..\..\..\Cpu0_Main.c</RelativePath>
+        <ViewId>7</ViewId>
+        <ViewType>Document</ViewType>
+       </__.3>
+       <__.4>
+        <RelativePath>..\..\..\TrafficLight\TrafficLight.cpp</RelativePath>
+        <ViewId>8</ViewId>
+        <ViewType>Document</ViewType>
+       </__.4>
       </DocumentViews>
       <OtherViews>
        <__.0>
@@ -274,7 +308,7 @@
       <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>5</FocusedViewId>
+        <FocusedViewId>7</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
@@ -320,7 +354,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>5</TopTabViewId>
+             <TopTabViewId>7</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -353,6 +387,26 @@
                <TopTabViewId>-1</TopTabViewId>
                <ViewId>6</ViewId>
               </__.2>
+              <__.3>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>7</ViewId>
+              </__.3>
+              <__.4>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>8</ViewId>
+              </__.4>
              </Children>
             </__.1>
            </Children>
@@ -418,10 +472,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>
