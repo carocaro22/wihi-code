@@ -1,6 +1,6 @@
 # space <name> <id> <mau size>
-space	mpe:vtc:abs18	3	8
 space	mpe:vtc:abs24	2	8
+space	mpe:vtc:abs18	3	8
 space	mpe:tc0:linear	101	8
 space	mpe:vtc:linear	1	8
 space	mpe:tc0:abs18	103	8

@@ -96,19 +96,19 @@ void core0_main(void)
     /*-------------------------------------------------Modules Initialization----------------------------------------*/
     /*****************************************************************************************************************/
 
-    // 1.) Initialize PORT_LED_RED as output
+    // Initialize PORT_LED_RED as output
     IfxPort_setPinModeOutput(PORT_LED_RED, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
-    // 2.) Initialize PORT_LED_YELLOW as output
+    // Initialize PORT_LED_YELLOW as output
     IfxPort_setPinModeOutput(PORT_LED_YELLOW, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
-    // 3.) Initialize PORT_LED_GREEN as output
+    // Initialize PORT_LED_GREEN as output
     IfxPort_setPinModeOutput(PORT_LED_GREEN, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
-    // 4.) Initialize the scheduler
+    // Initialize the scheduler
     SchedInit();
 
-    // 5.) Add the user tasks
+    // Add the user tasks
     AddTask(TASKTYPE_CYCLIC, (Task_fp)My100msTask, 100);
     AddTask(TASKTYPE_CYCLIC, (Task_fp)My500msTask, 500);
     AddTask(TASKTYPE_CYCLIC, (Task_fp)My1000msTask, 1000);
@@ -118,7 +118,7 @@ void core0_main(void)
     /*****************************************************************************************************************/
     while(1)
     {
-        // 6.) Run the scheduler
+        // Run the scheduler
         SchedRun();
     }
 }
