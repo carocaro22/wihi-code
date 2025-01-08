@@ -14,8 +14,8 @@ void initShellInterface(void);
 #ifdef __cplusplus
 extern "C" {
 #endif
-    void printMessage(char *message);
-    void printLine(char *message);
+    void printMessage(const char *message);
+    void printLine(const char *message);
     void printDouble(double value);
 #ifdef __cplusplus
 }

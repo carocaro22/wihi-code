@@ -1,19 +1,32 @@
-/*
- * MatrixLib.h
- *
- *  Created on: 30 de dez. de 2024
- *      Author: carolina
- */
-
+/********************************************************************************************************************/
+/*  MatrixLib.h                                                                                                     */
+/*                                                                                                                  */
+/*  Modul "Steuergeraete/Software/Vernetzung - Embedded Systems II"                                                 */
+/*  Uebung 3-03: C++-Programmierung–Klassendeﬁnition                                                                */
+/*                                                                                                                  */
+/*  Hochschule Mittweida, INW                                                                                       */
+/*  Prof. J. Thomanek                                                                                               */
+/*                                                                                                                  */
+/********************************************************************************************************************/
 #ifndef MATRIXLIB_H_
 #define MATRIXLIB_H_
+
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-    void TestCMatrix(void);
+
+
+/********************************************************************************************************************/
+/*-----------------------------------------------------Methods Declarations-----------------------------------------*/
+/********************************************************************************************************************/
+
+void TestCMatrix(void);
+
+
 #ifdef __cplusplus
 }
 #endif
+
 
 #endif /* MATRIXLIB_H_ */

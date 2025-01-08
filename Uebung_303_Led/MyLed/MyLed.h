@@ -1,3 +1,14 @@
+/********************************************************************************************************************/
+/*  MyLed.h                                                                                                         */
+/*                                                                                                                  */
+/*  Modul "Steuergeraete/Software/Vernetzung - Embedded Systems II"                                                 */
+/*  Uebung 3-03: C++-Programmierung–Klassendeﬁnition                                                                */
+/*                                                                                                                  */
+/*  Hochschule Mittweida, INW                                                                                       */
+/*  Prof. J. Thomanek                                                                                               */
+/*                                                                                                                  */
+/********************************************************************************************************************/
+
 #ifndef KIT_TC375_LK_H_
 #define KIT_TC375_LK_H_
 

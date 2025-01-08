@@ -114,7 +114,7 @@ void printInfo(IfxStdIf_DPipe *io)
     IfxStdIf_DPipe_print(io, "******************************************************************************"ENDLINE);
 }
 
-void printMessage(char *message)
+void printMessage(const char *message)
 {
     IfxStdIf_DPipe_print(&g_ascStandardInterface, message);
 }
@@ -123,7 +123,7 @@ void printDouble(double value) {
     IfxStdIf_DPipe_print(&g_ascStandardInterface, "%.2f", value);
 }
 
-void printLine(char *message)
+void printLine(const char *message)
 {
     IfxStdIf_DPipe_print(&g_ascStandardInterface, message);
     IfxStdIf_DPipe_print(&g_ascStandardInterface, ENDLINE);
