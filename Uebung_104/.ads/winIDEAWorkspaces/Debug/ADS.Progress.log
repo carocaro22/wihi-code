@@ -1,4 +1,4 @@
-LOADING	C:\Users\carolina\AURIX-v1.10.6-workspace\uebung14\Debug\uebung14.elf
+LOADING	C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Debug\Uebung_104.elf
 EMULATION	Probe - System; Root
 EMULATION	Initial debug frequency set
 EMULATION	Asserting reset
@@ -11,6 +11,6 @@ EMULATION	Final debug frequency set
 EMULATION	SoC ID match OK
 SoC	Detected device: TC370 series, rev. AA
 EMULATION	STARTED
-PROGRAMMING 	26054 bytes
+PROGRAMMING 	24932 bytes
 PROGRAMMING	Infineon TC37x_PFLASH_6MB (4 sectors)
 EMULATION	END - Not attempting cleanup

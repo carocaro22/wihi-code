@@ -28,7 +28,7 @@
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
 static TaskHandle_t g_AppTaskHandle;                            /* LED2 App task handle                              */
-static const IfxScu_Req_In * g_ReqIn = &IfxScu_REQ4A_P33_7_IN;  /* External Request pin: P33.7                       */
+static const IfxScu_Req_In * g_ReqIn = &IfxScu_REQ3C_P02_0_IN;  /* External Request pin: P33.7                       */
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
@@ -53,12 +53,6 @@ static void app_init(void)
     IfxScuEru_OutputChannel outputChannel       = IfxScuEru_OutputChannel_0;
     IfxScuEru_InputChannel inputChannel         = (IfxScuEru_InputChannel)g_ReqIn->channelId;
 
-    /* Setup the port/pin connected to LED2 as general push-pull  output */
-    IfxPort_setPinMode(LED_2.port, LED_2.pinIndex, IfxPort_Mode_outputPushPullGeneral);
-
-    /* Turn off LED2 (LED is active low) */
-    IfxPort_setPinState(LED_2.port, LED_2.pinIndex, IfxPort_State_high);
-
     /* Enable input mode with pull-down for the REQ_IN pin and configure the ERU input multiplexer */
     IfxScuEru_initReqPin(g_ReqIn, IfxPort_InputMode_pullDown);
 
@@ -79,21 +73,4 @@ static void app_init(void)
     IfxSrc_init(srcReg, IfxSrc_Tos_cpu0, ISR_PRIORITY_SCUERU_INT0);
     IfxSrc_enable(srcReg);
     /* --- */
-}
-
-/* Task which runs the LED2 app */
-void task_app_led2(void *arg)
-{
-    g_AppTaskHandle = xTaskGetCurrentTaskHandle();
-
-    app_init();
-
-    while (1)
-    {
-        // Wait for task notification and then toggle LED2
-        ulTaskNotifyTake(0, portMAX_DELAY);
-
-        /* Toggle LED2 state */
-        IfxPort_setPinState(LED_2.port, LED_2.pinIndex, IfxPort_State_toggled);
-    }
 }

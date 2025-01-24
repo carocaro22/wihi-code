@@ -19,6 +19,86 @@
          <FileType>1</FileType>
          <ScrollPos>1045</ScrollPos>
         </__.0>
+        <__.10>
+         <BookmarkList></BookmarkList>
+         <CaretPos>11797</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\Infra\Ssw\TC37A\Tricore\Ifx_Ssw_Tc0.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>291</ScrollPos>
+        </__.10>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Can\Std\IfxCan.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.11>
+        <__.12>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Cpu\Std\IfxCpu.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.12>
+        <__.13>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\ADC_Single_Channel.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.13>
+        <__.14>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2925</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Cpu0_Main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>53</ScrollPos>
+        </__.14>
+        <__.15>
+         <BookmarkList></BookmarkList>
+         <CaretPos>7655</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Cpu\Trap\IfxCpu_Trap.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>145</ScrollPos>
+        </__.15>
+        <__.16>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Evadc\Adc\IfxEvadc_Adc.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.16>
+        <__.17>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Evadc\Std\IfxEvadc.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.17>
+        <__.18>
+         <BookmarkList></BookmarkList>
+         <CaretPos>14271</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Can\Can\IfxCan_Can.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>301</ScrollPos>
+        </__.18>
+        <__.19>
+         <BookmarkList></BookmarkList>
+         <CaretPos>0</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Can\Can\IfxCan_Can.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>0</ScrollPos>
+        </__.19>
         <__.1>
          <BookmarkList></BookmarkList>
          <CaretPos>11797</CaretPos>
@@ -27,6 +107,22 @@
          <FileType>1</FileType>
          <ScrollPos>291</ScrollPos>
         </__.1>
+        <__.20>
+         <BookmarkList></BookmarkList>
+         <CaretPos>4280</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\MCMCAN2.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>42</ScrollPos>
+        </__.20>
+        <__.21>
+         <BookmarkList></BookmarkList>
+         <CaretPos>10917</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\carolina\AURIX-v1.10.6-workspace\Uebung_104\Libraries\iLLD\TC37A\Tricore\Can\Std\IfxCan.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>313</ScrollPos>
+        </__.21>
         <__.2>
          <BookmarkList></BookmarkList>
          <CaretPos>5671</CaretPos>
@@ -153,13 +249,21 @@
         <ViewType>Document</ViewType>
        </__.11>
        <__.12>
-        <ViewId>1</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>14</ViewId>
+        <ViewType>Document</ViewType>
        </__.12>
        <__.13>
+        <ViewId>15</ViewId>
+        <ViewType>Document</ViewType>
+       </__.13>
+       <__.14>
+        <ViewId>1</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.14>
+       <__.15>
         <ViewId>0</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.13>
+       </__.15>
        <__.1>
         <ViewId>3</ViewId>
         <ViewType>CustomWatch</ViewType>
@@ -203,6 +307,16 @@
         <ViewId>4</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
+       <__.10>
+        <RelativePath>..\..\..\MCMCAN2.c</RelativePath>
+        <ViewId>14</ViewId>
+        <ViewType>Document</ViewType>
+       </__.10>
+       <__.11>
+        <RelativePath>..\..\..\Libraries\iLLD\TC37A\Tricore\Can\Std\IfxCan.c</RelativePath>
+        <ViewId>15</ViewId>
+        <ViewType>Document</ViewType>
+       </__.11>
        <__.1>
         <RelativePath>..\..\..\Libraries\iLLD\TC37A\Tricore\Cpu\Std\IfxCpu.h</RelativePath>
         <ViewId>5</ViewId>
@@ -369,7 +483,7 @@
       <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>6</FocusedViewId>
+        <FocusedViewId>14</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
@@ -415,7 +529,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>6</TopTabViewId>
+             <TopTabViewId>14</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -428,6 +542,26 @@
                <TopTabViewId>-1</TopTabViewId>
                <ViewId>4</ViewId>
               </__.0>
+              <__.10>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>14</ViewId>
+              </__.10>
+              <__.11>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>15</ViewId>
+              </__.11>
               <__.1>
                <DockType>Document</DockType>
                <Extent>1</Extent>
@@ -583,10 +717,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

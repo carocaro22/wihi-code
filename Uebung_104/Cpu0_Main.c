@@ -22,7 +22,7 @@
 #include "IfxStm.h"
 
 // Project Includes
-#include "MCMCAN.h"
+#include "MCMCAN2.h"
 #include "ADC_Single_Channel.h"
 #include "Bsp.h"
 
@@ -84,7 +84,7 @@ void core0_main(void)
         volatile float U_inp = input * (U_max/Inp_max);
 
         // 6.) Calculate resistance based on voltage devider rule
-        volatile float R = R_vor / (U_max/U_inp - 1);
+        volatile float R = R_vor / (U_max/U_inp - 1.0);
 
         // 7.) Calculate temperature
         volatile float T = 1/((1/B_val) * log(R/R_therm25) + (1/T_therm25)) - Kelvin_offset;
